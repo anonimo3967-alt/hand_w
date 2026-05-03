@@ -31,6 +31,7 @@ st.text("Lo que va a hacer es que un modelo entrenado te va a decir que número 
 drawing_mode = "freedraw"
 stroke_width = st.slider('Selecciona el ancho de línea', 1, 30, 15)
 color = st.color_picker("Selecciona un color a tu gusto", "#000000")
+color_bg = st.color_picker("Ahora selecciona el color del fondo del tablero", #000000)
 stroke_color = '#FFFFFF' # Set background color to white
 bg_color = '#000000'
 
