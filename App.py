@@ -24,6 +24,7 @@ def predictDigit(image):
 st.set_page_config(page_title='Reconocimiento de Dígitos escritos a mano', layout='wide')
 st.title('Anagnórisis de numeros escritos a mano')
 st.subheader("Dibuja un numero en el panel y luego dale al boton que dice 'tunometecabrasaramambiche'")
+st.text("Lo que va a hacer es que un modelo entrenado te va a decir que número escribiste")
 
 # Add canvas component
 # Specify canvas parameters in application
