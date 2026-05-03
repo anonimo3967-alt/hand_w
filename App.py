@@ -59,4 +59,7 @@ if st.button('tunometecabrasaramambiche', type="primary"):
         st.header('Parece que no has dibujado nada...')
 
 # Add sidebar
-st.image("venom-meme.jpeg", caption="raaaahhhh")
+with st.sidebar:
+    st.image("venom-meme.jpeg", caption="raaaahhhh")
+    
+
