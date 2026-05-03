@@ -30,7 +30,8 @@ st.text("Lo que va a hacer es que un modelo entrenado te va a decir que número 
 # Specify canvas parameters in application
 drawing_mode = "freedraw"
 stroke_width = st.slider('Selecciona el ancho de línea', 1, 30, 15)
-stroke_color = '#FFFFFF' # Set background color to white
+color = st.color_picker("Selecciona un color a tu gusto", "#000000")
+stroke_color = 'color' # Set background color to white
 bg_color = '#000000'
 
 # Create a canvas component
